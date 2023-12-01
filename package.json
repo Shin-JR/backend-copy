@@ -1,0 +1,46 @@
+{
+  "name": "test_caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix . --ext .js,.jsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-jwt": "^4.0.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^11.0.2",
+    "koa2-swagger-ui": "^5.9.1",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "prettier": "^3.0.3",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
